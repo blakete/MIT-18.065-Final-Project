@@ -1,12 +1,12 @@
 # 18.065-Final-Project
-Authors: Blake Edwards[^1], Shruti Garg[^2], Erin Menezes[^3]
+**Authors**: Blake Edwards[^1], Shruti Garg[^2], Erin Menezes[^3]
 
 [^1]: MIT, Department of Aeronautics and Astronautics
 [^2]: MIT, Department of Electrical Engineering and Computer Science
 [^3]: MIT, Department of Mechanical Engineering
 
-Link to project report: https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf <br>
-Link to Final Presentation Slides: https://docs.google.com/presentation/d/1sp6oyPiH-t7UUCnZQJGkI6kWlt2SCyK1Z28j_DZ1J14/edit?usp=sharing
+**Link to project report**: https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf <br>
+**Link to Final Presentation Slides**: https://docs.google.com/presentation/d/1sp6oyPiH-t7UUCnZQJGkI6kWlt2SCyK1Z28j_DZ1J14/edit?usp=sharing
 
 ## Preview of RL Controller
 
