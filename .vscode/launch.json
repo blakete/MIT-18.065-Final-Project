@@ -1,0 +1,44 @@
+{
+    "configurations": [
+        {
+            "name": "Calculate Metrics",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/camera_ready/comparison_and_analysis/calculate_metrics.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Visualize RL and OC",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/camera_ready/comparison_and_analysis/visualize_rl_and_oc.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Solve Optimal Control Problems",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/camera_ready/optimal_control/solve_optimal_control.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+        {
+            "name": "Visualize Optimal Control Solutions",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/camera_ready/optimal_control/visualize_optimal_control.py",
+            "console": "integratedTerminal",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}"
+            }
+        },
+    ]
+}

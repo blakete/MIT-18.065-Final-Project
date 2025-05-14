@@ -1,0 +1,259 @@
+(.venv) blake 18.065-Final-Project git:(main) ✗ $  cd /Users/blake/repos/18.065-Final-Project ; /usr/bin/env /Users/blake/repos/mit-acl-boeing-project/.venv/bin/pytho
+n /Users/blake/.cursor/extensions/ms-python.debugpy-2024.6.0-darwin-arm64/bundled/libs/debugpy/adapter/../../debugpy/launcher 57626 -- /Users/blake/repos/18.065-Final
+-Project/src/camera_ready/optimal_control/solve_optimal_control.py 
+
+Solving LQR Optimal Control Problem...
+Total number of variables............................:      504
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:      303
+Total number of inequality constraints...............:     1107
+        inequality constraints with only lower bounds:      403
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:      704
+
+
+Number of Iterations....: 3000
+
+                                   (scaled)                 (unscaled)
+Objective...............:   1.3701877781472163e+02    1.3701877781472163e+02
+Dual infeasibility......:   2.3877780857468253e-01    2.3877780857468253e-01
+Constraint violation....:   8.1552332161644037e-16    8.1552332161644037e-16
+Variable bound violation:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   2.8284271278613236e-03    2.8284271278613236e-03
+Overall NLP error.......:   2.3877780857468253e-01    2.3877780857468253e-01
+
+
+Number of objective function evaluations             = 10155
+Number of objective gradient evaluations             = 3001
+Number of equality constraint evaluations            = 10155
+Number of inequality constraint evaluations          = 10155
+Number of equality constraint Jacobian evaluations   = 3001
+Number of inequality constraint Jacobian evaluations = 3001
+Number of Lagrangian Hessian evaluations             = 3000
+Total seconds in IPOPT                               = 16.184
+
+EXIT: Maximum Number of Iterations Exceeded.
+Waypoint segment 0 solution time: 16.61755895614624 seconds
+Total number of variables............................:      504
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:      303
+Total number of inequality constraints...............:     1107
+        inequality constraints with only lower bounds:      403
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:      704
+
+CasADi - 2025-05-04 19:11:40 WARNING("solver:nlp_jac_g failed: NaN detected for output jac_g_x, at nonzero index 4 (row 1310, col 0).") [.../casadi/core/oracle_function.cpp:393]
+
+Number of Iterations....: 125
+
+Number of objective function evaluations             = 129
+Number of objective gradient evaluations             = 113
+Number of equality constraint evaluations            = 129
+Number of inequality constraint evaluations          = 129
+Number of equality constraint Jacobian evaluations   = 127
+Number of inequality constraint Jacobian evaluations = 126
+Number of Lagrangian Hessian evaluations             = 125
+Total seconds in IPOPT                               = 1.108
+
+EXIT: Invalid number in NLP function or derivative detected.
+Waypoint segment 1 solution time: 1.5381851196289062 seconds
+Total number of variables............................:      504
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:      303
+Total number of inequality constraints...............:     1107
+        inequality constraints with only lower bounds:      403
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:      704
+
+
+Number of Iterations....: 3000
+
+                                   (scaled)                 (unscaled)
+Objective...............:   3.1521371761577876e+02    3.1521371761577876e+02
+Dual infeasibility......:   4.0362706773342621e-01    4.0362706773342621e-01
+Constraint violation....:   3.6096903244242640e-11    3.6096903244242640e-11
+Variable bound violation:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   2.0004489873593372e-02    2.0004489873593372e-02
+Overall NLP error.......:   4.0362706773342621e-01    4.0362706773342621e-01
+
+
+Number of objective function evaluations             = 11985
+Number of objective gradient evaluations             = 3001
+Number of equality constraint evaluations            = 11985
+Number of inequality constraint evaluations          = 11985
+Number of equality constraint Jacobian evaluations   = 3001
+Number of inequality constraint Jacobian evaluations = 3001
+Number of Lagrangian Hessian evaluations             = 3000
+Total seconds in IPOPT                               = 17.154
+
+EXIT: Maximum Number of Iterations Exceeded.
+Waypoint segment 2 solution time: 17.57840394973755 seconds
+Total number of variables............................:      504
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:      303
+Total number of inequality constraints...............:     1107
+        inequality constraints with only lower bounds:      403
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:      704
+
+CasADi - 2025-05-04 19:11:59 WARNING("solver:nlp_jac_g failed: NaN detected for output jac_g_x, at nonzero index 202 (row 1343, col 33).") [.../casadi/core/oracle_function.cpp:393]
+
+Number of Iterations....: 116
+
+Number of objective function evaluations             = 139
+Number of objective gradient evaluations             = 92
+Number of equality constraint evaluations            = 139
+Number of inequality constraint evaluations          = 139
+Number of equality constraint Jacobian evaluations   = 118
+Number of inequality constraint Jacobian evaluations = 117
+Number of Lagrangian Hessian evaluations             = 116
+Total seconds in IPOPT                               = 0.592
+
+EXIT: Invalid number in NLP function or derivative detected.
+Waypoint segment 3 solution time: 1.021009922027588 seconds
+LQR solution time: 36.75575494766235 seconds
+
+Solving Min Time Optimal Control Problem...
+Total number of variables............................:      504
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:      303
+Total number of inequality constraints...............:     1107
+        inequality constraints with only lower bounds:      403
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:      704
+
+
+Number of Iterations....: 3000
+
+                                   (scaled)                 (unscaled)
+Objective...............:   1.8000548213367370e+01    1.8000548213367370e+01
+Dual infeasibility......:   2.3179012148612677e-04    2.3179012148612677e-04
+Constraint violation....:   1.9293760975418878e-04    1.9293760975418878e-04
+Variable bound violation:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   1.8449144625885425e-06    1.8449144625885425e-06
+Overall NLP error.......:   2.3179012148612677e-04    2.3179012148612677e-04
+
+
+Number of objective function evaluations             = 11437
+Number of objective gradient evaluations             = 3001
+Number of equality constraint evaluations            = 11437
+Number of inequality constraint evaluations          = 11437
+Number of equality constraint Jacobian evaluations   = 3001
+Number of inequality constraint Jacobian evaluations = 3001
+Number of Lagrangian Hessian evaluations             = 3000
+Total seconds in IPOPT                               = 15.644
+
+EXIT: Maximum Number of Iterations Exceeded.
+Waypoint segment 0 solution time: 15.976296186447144 seconds
+Total number of variables............................:      504
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:      303
+Total number of inequality constraints...............:     1107
+        inequality constraints with only lower bounds:      403
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:      704
+
+
+Number of Iterations....: 3000
+
+                                   (scaled)                 (unscaled)
+Objective...............:   2.1629213482526545e+01    2.1629213482526545e+01
+Dual infeasibility......:   1.9325799234310735e-04    1.9325799234310735e-04
+Constraint violation....:   8.9222088148543932e-05    8.9222088148543932e-05
+Variable bound violation:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   1.8449144625296968e-06    1.8449144625296968e-06
+Overall NLP error.......:   1.9325799234310735e-04    1.9325799234310735e-04
+
+
+Number of objective function evaluations             = 9985
+Number of objective gradient evaluations             = 2986
+Number of equality constraint evaluations            = 9985
+Number of inequality constraint evaluations          = 9985
+Number of equality constraint Jacobian evaluations   = 3004
+Number of inequality constraint Jacobian evaluations = 3004
+Number of Lagrangian Hessian evaluations             = 3000
+Total seconds in IPOPT                               = 16.452
+
+EXIT: Maximum Number of Iterations Exceeded.
+Waypoint segment 1 solution time: 16.785439014434814 seconds
+Total number of variables............................:      504
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:      303
+Total number of inequality constraints...............:     1107
+        inequality constraints with only lower bounds:      403
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:      704
+
+
+Number of Iterations....: 3000
+
+                                   (scaled)                 (unscaled)
+Objective...............:   2.0938072112529714e+01    2.0938072112529714e+01
+Dual infeasibility......:   1.1654883729042867e-02    1.1654883729042867e-02
+Constraint violation....:   7.0274127837643974e-03    7.0274127837643974e-03
+Variable bound violation:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   1.6542449303458501e-04    1.6542449303458501e-04
+Overall NLP error.......:   1.1654883729042867e-02    1.1654883729042867e-02
+
+
+Number of objective function evaluations             = 12016
+Number of objective gradient evaluations             = 3001
+Number of equality constraint evaluations            = 12016
+Number of inequality constraint evaluations          = 12016
+Number of equality constraint Jacobian evaluations   = 3002
+Number of inequality constraint Jacobian evaluations = 3002
+Number of Lagrangian Hessian evaluations             = 3000
+Total seconds in IPOPT                               = 16.595
+
+EXIT: Maximum Number of Iterations Exceeded.
+Waypoint segment 2 solution time: 16.92794704437256 seconds
+Total number of variables............................:      504
+                     variables with only lower bounds:        0
+                variables with lower and upper bounds:        0
+                     variables with only upper bounds:        0
+Total number of equality constraints.................:      303
+Total number of inequality constraints...............:     1107
+        inequality constraints with only lower bounds:      403
+   inequality constraints with lower and upper bounds:        0
+        inequality constraints with only upper bounds:      704
+
+
+Number of Iterations....: 3000
+
+                                   (scaled)                 (unscaled)
+Objective...............:   2.0949538336090079e+01    2.0949538336090079e+01
+Dual infeasibility......:   2.2282822211897583e-04    2.2282822211897583e-04
+Constraint violation....:   1.7052865786126858e-08    1.7052865786126858e-08
+Variable bound violation:   0.0000000000000000e+00    0.0000000000000000e+00
+Complementarity.........:   1.8449255786923543e-06    1.8449255786923543e-06
+Overall NLP error.......:   2.2282822211897583e-04    2.2282822211897583e-04
+
+
+Number of objective function evaluations             = 10389
+Number of objective gradient evaluations             = 2916
+Number of equality constraint evaluations            = 10389
+Number of inequality constraint evaluations          = 10389
+Number of equality constraint Jacobian evaluations   = 3002
+Number of inequality constraint Jacobian evaluations = 3002
+Number of Lagrangian Hessian evaluations             = 3000
+Total seconds in IPOPT                               = 16.363
+
+EXIT: Maximum Number of Iterations Exceeded.
+Waypoint segment 3 solution time: 16.70019507408142 seconds
+MT solution time: 66.39047503471375 seconds
+
+Complete!
