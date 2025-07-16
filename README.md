@@ -1,15 +1,16 @@
-# MIT 18.065: Matrix Methods – Final Project – RL vs Optimal Control in Autonomous Vehicle Navigation
-**Authors**: Blake Edwards[^1], Shruti Garg[^2], Erin Menezes[^3]
+# MIT 18.065 Matrix Methods Final Project: RL vs Optimal Control in Autonomous Vehicle Navigation
+**Authors**: Blake Edwards [^1], Shruti Garg [^2], Erin Menezes [^3]
 
-A comparative study of reinforcement learning and classical optimal control for autonomous navigation of a non-holonomic vehicle through waypoints using a 2D kinematic model. We implement and evaluate three strategies—minimum-time control, nonlinear quadratic regulator, and RL—with RL delivering the fastest completion (79s) but at higher control effort. Dive into the code and results from our MIT 18.065 final project.
+## Summary
+A comparative study of reinforcement learning and classical optimal control for autonomous navigation of a non-holonomic vehicle through waypoints using a 2D kinematic model. We implement and evaluate three strategies: minimum-time control, nonlinear quadratic regulator, and RL. Our RL solution delivered the fastest completion time (79s) but at higher control effort. The keen observer will see this is because of a small bug in the comparative logic! Dive into the code and results from this MIT 18.065 project.
 
-### Sneak Peak of Results
+## Sneak Peak of Results
 
 <a href="https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf">
   <img src="assets/results-summary.png" alt="Report Front Page" style="width: 500px;">
 </a>
 
-### See the Report
+## See the Report
 
 <div>
   <a href="https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf">
