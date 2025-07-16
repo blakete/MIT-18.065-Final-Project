@@ -2,7 +2,7 @@
 
 <div>
   <a href="https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf">
-    <img src="assets/project-report-first-page-screenshot.png" alt="Report Front Page" style="max-width: 400px;">
+    <img src="assets/project-report-first-page-screenshot.png" alt="Report Front Page" style="width: 400px;">
   </a>
 </div>
 
