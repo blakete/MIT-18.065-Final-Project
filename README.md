@@ -1,7 +1,7 @@
 # MIT 18.065: Matrix Methods – Final Project
 
 <a href="https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf">
-  <img src="assets/project-report-first-page-screenshot.png" alt="Report Front Page" width="95%" max-width="1000px">
+  <img src="assets/project-report-first-page-screenshot.png" alt="Report Front Page" style="width: 90%; max-width: 400px !important;">
 </a>
 
 **Authors**: Blake Edwards[^1], Shruti Garg[^2], Erin Menezes[^3]
