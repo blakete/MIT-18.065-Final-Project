@@ -10,7 +10,7 @@ Click the thumbnail below to watch the full video on YouTube.
 
 [![RL Racer Preview](https://img.youtube.com/vi/3Qm3kliqBm4/hqdefault.jpg)](https://youtube.com/shorts/3Qm3kliqBm4)
 
-### Results Summary
+## Results Summary
 
 <a href="https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf">
   <img src="assets/results-summary.png" alt="Results Summary" style="width: 500px;">
@@ -31,17 +31,15 @@ Click the preview image below to view the full PDF report on GitHub.
 
 ---
 
-## Preview of RL Controller
+## Explore these incomplete instructions at your own peril 🤣
 
-/Users/blake/repos/MIT-18.065-Final-Project/src/rl_control/visualize/misc/race_course_4000.mp4
-
-## Running the code
+### Running the code
 
 ```console
 python3 train_ppo_bike.py --num-envs 32 --total-timesteps 8192000 --use-wandb 2>&1 | tee train_fr.log
 ```
 
-## Experiments
+#### Experiments
 
 ```console
 source /Users/blake/repos/18.065-Final-Project/.venv/bin/activate
@@ -67,7 +65,7 @@ python3 train_ppo_bike.py --num-envs 32 --total-timesteps 8192000 --use-wandb --
 python3 visualize_ppo.py --model "/Users/blake/repos/18.065-Final-Project/experiment_runs/ppo_bike_20250427_002517/ppo_bike_agent_final.pt"
 ```
 
-## What to Do Next
+### What to Do Next
 
 1. **You need to train a new agent** with these fixes. The previous model can't be fixed because it learned behaviors based on different rules.
 
@@ -84,7 +82,7 @@ python3 visualize_ppo.py --model "/Users/blake/repos/18.065-Final-Project/experi
 
 The speed reward should encourage the agent to move rather than just turn in place. The reward function now explicitly values both getting closer to the waypoint AND maintaining a reasonable speed.
 
-## Start a new `tmux` based training experiment
+### Start a new `tmux` based training experiment
 
 1. Start a new `tmux` session
 
@@ -112,7 +110,7 @@ The speed reward should encourage the agent to move rather than just turn in pla
 
 ---
 
-## Visualize Trained Agent Policy
+### Visualize Trained Agent Policy
 
 ```console
 export PYTHONPATH="/Users/blake/repos/18.065-Final-Project"
@@ -132,7 +130,7 @@ python3 src/rl_bike_race/visualize/visualize_ppo.py --hidden-dim 128 --steps 300
 
 ```
 
-## Run Race Script
+### Run Race Script
 
 ```console
 source .venv/bin/activate
