@@ -2,7 +2,7 @@
 **Authors**: Blake Edwards [^1], Shruti Garg [^2], Erin Menezes [^3]
 
 ## Summary
-A comparative study of reinforcement learning and classical optimal control for autonomous navigation of a non-holonomic vehicle through waypoints using a 2D kinematic model. We implement and evaluate three strategies: minimum-time control, nonlinear quadratic regulator, and RL. Our RL solution delivered the fastest completion time (79s) but at higher control effort. The keen observer will see this is because of a small bug in the comparative logic! Dive into the code and results from this MIT 18.065 project.
+A comparative study of reinforcement learning and classical optimal control for autonomous navigation of a non-holonomic vehicle through waypoints using a 2D kinematic model. We implement and evaluate three strategies: minimum-time control, nonlinear quadratic regulator, and RL. Our RL solution delivered the fastest completion time (79s) but at higher control effort. The keen observer will see this is because of a small bug in the comparative logic! Feel free to dive into the code and results from our MIT 18.065 project. 😊
 
 ## Sneak Peak of Results
 
