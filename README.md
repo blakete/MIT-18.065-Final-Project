@@ -1,19 +1,30 @@
-# MIT 18.065: Matrix Methods – Final Project
+# MIT 18.065 Matrix Methods Final Project: RL vs Optimal Control in Autonomous Vehicle Navigation
+**Authors**: Blake Edwards [^1], Shruti Garg [^2], Erin Menezes [^3]
+
+## Summary
+A comparative study of reinforcement learning and classical optimal control for autonomous navigation of a non-holonomic vehicle through waypoints using a 2D kinematic model. We implement and evaluate three strategies: minimum-time control, nonlinear quadratic regulator, and RL. Our RL solution delivered the fastest completion time (79s) but at higher control effort. The keen observer will see this is because of a small bug in the comparative logic! Feel free to dive into the code and results from our MIT 18.065 project. 😊
+
+
+## Sneak Peak of Results
+
+<video src="assets/rl_racer_preview.mp4" controls width="70%" height="auto">
+  Your browser does not support the video tag.
+</video>
+
+<a href="https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf">
+  <img src="assets/results-summary.png" alt="Report Front Page" style="width: 500px;">
+</a>
+
+## See the Report
 
 <div>
   <a href="https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf">
-    <img src="assets/project-report-first-page-screenshot.png" alt="Report Front Page" style="width: 400px;">
+    <img src="assets/project-report-first-page-screenshot.png" alt="Report Front Page" style="width: 500px;">
   </a>
 </div>
 
-**Authors**: Blake Edwards[^1], Shruti Garg[^2], Erin Menezes[^3]
-
-[^1]: MIT, Department of Aeronautics and Astronautics
-[^2]: MIT, Department of Electrical Engineering and Computer Science
-[^3]: MIT, Department of Mechanical Engineering
-
-**Link to full project report**: https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf <br>
-**Link to final presentation slides**: https://docs.google.com/presentation/d/1sp6oyPiH-t7UUCnZQJGkI6kWlt2SCyK1Z28j_DZ1J14/edit?usp=sharing
+**[Link to full project report](https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf)** <br>
+**[Link to final presentation slides](https://docs.google.com/presentation/d/1sp6oyPiH-t7UUCnZQJGkI6kWlt2SCyK1Z28j_DZ1J14/edit?usp=sharing)**
 
 ---
 
@@ -147,3 +158,10 @@ python3 src/rl_bike_race/run_race/run_race.py \
     --state_output_path "/Users/blake/repos/18.065-Final-Project/src/rl_bike_race/run_race/debug_race_states_6000_agent_50.npy"
 ```
 
+---
+
+## Author Affiliations
+
+[^1]: MIT, Department of Aeronautics and Astronautics
+[^2]: MIT, Department of Electrical Engineering and Computer Science
+[^3]: MIT, Department of Mechanical Engineering
