@@ -7,9 +7,7 @@ A comparative study of reinforcement learning and classical optimal control for 
 
 ## Sneak Peak of Results
 
-<video src="assets/rl_racer_preview.mp4" controls width="70%" height="auto">
-  Your browser does not support the video tag.
-</video>
+[![RL Racer Preview](https://img.youtube.com/vi/3Qm3kliqBm4/hqdefault.jpg)](https://youtube.com/shorts/3Qm3kliqBm4)
 
 <a href="https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf">
   <img src="assets/results-summary.png" alt="Report Front Page" style="width: 500px;">
