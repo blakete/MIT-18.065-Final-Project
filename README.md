@@ -1,4 +1,14 @@
-# MIT 18.065: Matrix Methods – Final Project
+# MIT 18.065: Matrix Methods – Final Project – RL vs Optimal Control in Autonomous Vehicle Navigation
+
+A comparative study of reinforcement learning and classical optimal control for autonomous navigation of a non-holonomic vehicle through waypoints using a 2D kinematic model. We implement and evaluate three strategies—minimum-time control, nonlinear quadratic regulator, and RL—with RL delivering the fastest completion (79s) but at higher control effort. Dive into the code and results from our MIT 18.065 final project.
+
+### Sneak Peak of Results
+
+<a href="https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf">
+  <img src="assets/results-summary.png" alt="Report Front Page" style="width: 400px;">
+</a>
+
+### See the Report
 
 <div>
   <a href="https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf">
