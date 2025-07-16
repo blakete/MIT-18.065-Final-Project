@@ -18,8 +18,8 @@ A comparative study of reinforcement learning and classical optimal control for 
   </a>
 </div>
 
-**Link to full project report**: https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf <br>
-**Link to final presentation slides**: https://docs.google.com/presentation/d/1sp6oyPiH-t7UUCnZQJGkI6kWlt2SCyK1Z28j_DZ1J14/edit?usp=sharing
+**[Link to full project report](https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf)** <br>
+**[Link to final presentation slides](https://docs.google.com/presentation/d/1sp6oyPiH-t7UUCnZQJGkI6kWlt2SCyK1Z28j_DZ1J14/edit?usp=sharing)**
 
 ---
 
