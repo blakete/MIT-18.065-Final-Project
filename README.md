@@ -157,6 +157,6 @@ python3 src/rl_bike_race/run_race/run_race.py \
 
 ## Author Affiliations
 
-[^1]: MIT, Department of Aeronautics and Astronautics
-[^2]: MIT, Department of Electrical Engineering and Computer Science
-[^3]: MIT, Department of Mechanical Engineering
+- [^1]: MIT, Department of Aeronautics and Astronautics
+- [^2]: MIT, Department of Electrical Engineering and Computer Science
+- [^3]: MIT, Department of Mechanical Engineering
