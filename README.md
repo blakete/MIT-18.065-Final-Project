@@ -4,7 +4,12 @@
 ## Summary
 A comparative study of reinforcement learning and classical optimal control for autonomous navigation of a non-holonomic vehicle through waypoints using a 2D kinematic model. We implement and evaluate three strategies: minimum-time control, nonlinear quadratic regulator, and RL. Our RL solution delivered the fastest completion time (79s) but at higher control effort. The keen observer will see this is because of a small bug in the comparative logic! Feel free to dive into the code and results from our MIT 18.065 project. 😊
 
+
 ## Sneak Peak of Results
+
+<video src="assets/rl_racer_preview.mp4" controls width="70%" height="auto">
+  Your browser does not support the video tag.
+</video>
 
 <a href="https://github.com/blakete/MIT-18.065-Final-Project/blob/main/MIT_18_065_Final_Project_Report.pdf">
   <img src="assets/results-summary.png" alt="Report Front Page" style="width: 500px;">
